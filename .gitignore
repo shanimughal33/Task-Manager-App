@@ -15,6 +15,9 @@ migrate_working_dir/
 *.ipr
 *.iws
 .idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
 
 # The .vscode folder contains launch configuration and tasks you configure in
 # VS Code which you may wish to be included in version control, so this line
@@ -32,6 +35,20 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Gradle files
+.gradle/
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio generated files and folders
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+output.json
+
 # Symbolication related
 app.*.symbols
 
@@ -46,6 +63,13 @@ app.*.map.json
 # Firebase configuration files
 google-services.json
 GoogleService-Info.plist
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android Profiling
+*.hprof
 
 # Local configuration files
 .env
